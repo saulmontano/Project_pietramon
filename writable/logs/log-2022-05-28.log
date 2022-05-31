@@ -1,0 +1,46 @@
+CRITICAL - 2022-05-28 07:56:36 --> Unsupported operand types: string + string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 07:58:18 --> Unsupported operand types: string + string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 08:01:05 --> Unsupported operand types: string + string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 08:02:29 --> Unsupported operand types: string + string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 08:08:40 --> Unsupported operand types: string + int
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 19:25:55 --> Undefined array key "id_lote"
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\USER\\D...', 39)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(193): App\Models\tbllotes->dataGeneral('D59617FB2C')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->datosGeneralesLote()
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 19:26:15 --> Undefined array key "cantidadCerdos"
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\USER\\D...', 72)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(193): App\Models\tbllotes->dataGeneral('D59617FB2C')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->datosGeneralesLote()
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

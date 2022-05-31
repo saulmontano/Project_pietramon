@@ -1,0 +1,110 @@
+CRITICAL - 2022-05-26 11:05:39 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:09:41 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:10:06 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:10:25 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:10:55 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:11:16 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:11:23 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:11:58 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:12:01 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 11:12:31 --> Undefined property: App\Controllers\Usuarios::$modelUser
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\Usuarios.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 79)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\Usuarios->listarUsuario()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 17:35:47 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(11): CodeIgniter\Model->__call('table', Array)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(21): App\Models\tblrasaspuercos->totalRazas()
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->cargarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 17:35:57 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(11): CodeIgniter\Model->__call('table', Array)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(21): App\Models\tblrasaspuercos->totalRazas()
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->cargarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 17:37:01 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(11): CodeIgniter\Model->__call('table', Array)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(21): App\Models\tblrasaspuercos->totalRazas()
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->cargarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 17:37:19 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(11): CodeIgniter\Model->__call('table', Array)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(21): App\Models\tblrasaspuercos->totalRazas()
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->cargarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

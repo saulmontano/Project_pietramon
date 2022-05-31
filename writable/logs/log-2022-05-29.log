@@ -1,0 +1,92 @@
+CRITICAL - 2022-05-29 06:14:06 --> Too few arguments to function App\Controllers\LotesController::dataGlobalLote(), 0 passed in C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 06:23:48 --> Undefined array key "idlotePOST"
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\USER\\D...', 230)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 06:24:06 --> Undefined array key "idlotePOST"
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\USER\\D...', 230)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 06:24:50 --> Unknown column 'tblcerdo.id' in 'field list'
+CRITICAL - 2022-05-29 06:24:50 --> Unknown column 'tblcerdo.id' in 'field list'
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblcerd...', 0)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblcerd...')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblcerd...')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tblcerd...', Array, false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(125): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(233): App\Models\tbllotes->dataGlobalLote('D59617FB2C')
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#8 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-29 06:25:22 --> Unknown column 'tblestado.idRaza' in 'on clause'
+CRITICAL - 2022-05-29 06:25:22 --> Unknown column 'tblestado.idRaza' in 'on clause'
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblcerd...', 0)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblcerd...')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblcerd...')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tblcerd...', Array, false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(125): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(233): App\Models\tbllotes->dataGlobalLote('D59617FB2C')
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#8 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-29 06:25:51 --> Object of class stdClass could not be converted to string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 06:26:27 --> Undefined property: stdClass::$id
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 238)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLote()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 06:40:21 --> Unknown column 'tblestado.idRaza' in 'on clause'
+CRITICAL - 2022-05-29 06:40:21 --> Unknown column 'tblestado.idRaza' in 'on clause'
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblcerd...', 0)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblcerd...')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblcerd...')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tblcerd...', Array, false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblcerdo.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(263): App\Models\tblcerdo->dataCerdo(NULL)
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->datosCerdosLote()
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#8 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-29 22:29:22 --> Unknown column 'idRaza' in 'field list'
+CRITICAL - 2022-05-29 22:29:22 --> Unknown column 'idRaza' in 'field list'
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tblcerd...', 0)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tblcerd...')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tblcerd...')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tblcerd...', Array, false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(69): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(281): App\Models\tblrasaspuercos->updateDataCerdo('3', '212', 'sano', 'nueva raza02')
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->EditarCerdoInvi()
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#8 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-29 23:11:28 --> Attempt to read property "numero_lote" on array
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\USER\\D...', 252)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->dataGlobalLotesRegistros()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

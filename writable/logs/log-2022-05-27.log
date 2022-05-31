@@ -1,0 +1,193 @@
+CRITICAL - 2022-05-27 05:56:15 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(19): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(32): App\Models\tblrasaspuercos->issetRasa('nueva raza')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 05:57:07 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(20): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(32): App\Models\tblrasaspuercos->issetRasa('nueva raza')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 05:57:53 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(20): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(32): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 05:59:32 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(21): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(33): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 06:00:06 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(21): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(34): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 06:02:03 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(24): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(34): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 06:02:26 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(25): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(34): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 06:02:39 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(25): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(34): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 06:03:27 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblrasaspuercos.php(25): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(34): App\Models\tblrasaspuercos->issetRasa('nueva raza02')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->agregarRazas()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 09:24:58 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->index()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 11:42:03 --> Attempt to read property "idUsuario" on null
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\USER\\D...', 25)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(101): App\Models\tbllotes->createLote('02F8EE5FAE', '3243242')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 11:44:28 --> Attempt to read property "idUsuario" on null
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\USER\\D...', 25)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(101): App\Models\tbllotes->createLote('02F8EE5FAE', '3243242')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 11:44:39 --> Attempt to read property "idUsuario" on null
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\USER\\D...', 25)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(101): App\Models\tbllotes->createLote('02F8EE5FAE', '3243242')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 11:44:52 --> Undefined array key "status"
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\USER\\D...', 102)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 11:45:05 --> Cannot access offset of type string on string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 11:45:52 --> Cannot access offset of type string on string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 11:47:19 --> Cannot access offset of type string on string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 11:51:21 --> Cannot access offset of type string on string
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 11:54:59 --> You must set the database table to be used with your query.
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(19): CodeIgniter\Model->__get('session')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(101): App\Models\tbllotes->createLote('6CD59DF291', '234')
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-27 13:43:40 --> Unknown column 'usuarioCreado' in 'field list'
+CRITICAL - 2022-05-27 13:43:40 --> Unknown column 'usuarioCreado' in 'field list'
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tbllotes.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(100): App\Models\tbllotes->createLote('6CD59DF291', '234', '1')
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#8 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-27 14:39:16 --> Class "App\Controllers\tblcerdo" not found
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(809): App\Controllers\LotesController->__construct()
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-27 16:04:06 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-27 16:04:06 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Models\tblcerdo.php(11): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\app\Controllers\LotesController.php(142): App\Models\tblcerdo->createCerdo(Array)
+#6 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(832): App\Controllers\LotesController->createLote()
+#7 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LotesController))
+#8 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\USER\Documents\proyectos_git\ProjectSoftware2\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
