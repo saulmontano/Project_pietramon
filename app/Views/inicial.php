@@ -482,7 +482,7 @@
         })
     }
 
-    function aliminarDataCerdo(idDatacerdo){
+    function aliminarDataCerdo(iddatacerdonuevo){
        
         Swal.fire({
             title: 'Desea eliminar este elemento del lote',
@@ -492,12 +492,12 @@
         }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (!result.isConfirmed) {
-                if(idDatacerdo != ''){
+                if(iddatacerdonuevo != ''){
                     $.ajax({
                         type: "POST",
                         url: "LotesController/EliminarCerdo",
                         data:{
-                            idCerdo:idDatacerdo,
+                            idCerdo:iddatacerdonuevo,
                         },
                         dataType: "JSON",
                         success: function (response) {

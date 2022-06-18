@@ -80,11 +80,12 @@ class tblrasaspuercos extends Model
     public function EliminarDataCerdo($idCerdo = null){
         $response=[];
         if($idCerdo){
-            $id_lote=$this->db->table('tblcerdo')->where('idCerdo',$idCerdo)->get()->getResultArray()[0];
+            $id_lote=$this->db->table('tblcerdo')->where('idCerdo',$idCerdo)->get()->getResultArray();
 
             $statusDelete=$this->db->table('tblcerdo')->where('idCerdo',$idCerdo)->delete();
             if($statusDelete){
-                $namelote=$this->db->table('tbllotes')->select('numero_lote')->where('id_lote',$id_lote)->get()->getResultArray()[0];
+                $namelote=$this->db->table('tbllotes')->select('numero_lote,cantidaCerdos')->where('id_lote',$id_lote[0]['idLote'])->get()->getResultArray()[0];
+                $this->db->table('tbllotes')->where('id_lote',$id_lote[0]['idLote'])->update(['cantidaCerdos'=>(intVal($namelote['cantidaCerdos'])-1)]);
                 $response=['status'=>true,'msj'=>'Elemento eliminado con exito','data'=>$namelote['numero_lote'],'error'=>null];
             }
             else{
