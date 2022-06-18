@@ -101,4 +101,21 @@ class TblUsuarios extends Model
         }
         return $response;
     }
+    public function deleteUser($id_usuario=null){
+        $response=[];
+        if($id_usuario!=null){
+            $dataUsuario=$this->db->table('tblusuarios')->where('idUser',$id_usuario)->delete();
+            if( $dataUsuario){
+                $response=['status'=>true,'msj'=>'usuario eliminado con exito','error'=>200,'data'=>null];
+            }
+            else{
+                $response=['status'=>false,'msj'=>'se presento un error al intentar eliminar el usuario','error'=>204,'data'=>$dataUsuario];
+
+            }
+        }
+        else{
+            $response=['status'=>false,'msj'=>'Todos los campos on obligatorios','error'=>204,'data'=>null];
+        }
+        return $response;
+    }
 }

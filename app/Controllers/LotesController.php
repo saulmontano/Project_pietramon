@@ -280,7 +280,12 @@ class LotesController extends BaseController
             $i=1;
             foreach ($datalotes['data'] as $datan) {
 
-                $opciones ="<button type='button' class='btn btn-secondary' onclick='editarDataCerdo({$datan->idCerdo})'>Modificar</button>";
+                $opciones="
+                    <div>
+                            <button type='button' class='btn btn-outline-success' onclick='editarDataCerdo({$datan->idCerdo})'><i class='fa-solid fa-pen-to-square'></i></button>
+                            <button type='button' class='btn btn-outline-danger' onclick='aliminarDataCerdo({$datan->idCerdo})'><i class='fa-solid fa-x'></i></button>
+                    </div>
+                ";
                 $array[]=[
                     'indicativo'=>$i,
                     'lote'=>$datan->numero_lote,
@@ -313,5 +318,15 @@ class LotesController extends BaseController
         $razaCerdo=$this->request->getPost('razaCerda');
         $responseCerdo=$this->modelrasa->updateDataCerdo($idCerdo,$pesoCerd,$estadoCerdo,$razaCerdo);
         return json_encode($responseCerdo);
+    }
+    public function EliminarCerdo(){
+        $idCerdo=$this->request->getPost('idCerdo');
+        if($idCerdo!=null){
+            $responseCerdo=$this->modelrasa->EliminarDataCerdo($idCerdo);
+            return json_encode($responseCerdo);
+        }
+        else{
+            return json_encode(['status'=>false,'msj'=>'todos los campos son obligatorios','data'=>null,'error'=>204]);
+        }
     }
 }

@@ -18,7 +18,7 @@
         <?php endif;?>
       </ul>
       <div style="position:relative;left:50%;">
-          <button class="btn btn-outline-primary">
+          <button class="btn btn-outline-primary" onclick="salirCession()">
             <i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar sesión
           </button>
       </div>
@@ -29,5 +29,34 @@
   $('.nav-link').removeClass("active");
   var pathname = window.location.pathname;
   var res=pathname.split('/');
-  $('#'+res[2]).addClass("active")
+  $('#'+res[2]).addClass("active");
+
+  function salirCession(){
+    Swal.fire({
+      title: 'Desea cerrar sesion?',
+      showDenyButton: true,
+      confirmButtonText: 'continuar',
+      denyButtonText: `salir`,
+    }).then((result) => {
+      /* Read more about isConfirmed, isDenied below */
+      if (!result.isConfirmed) {
+        $.ajax({
+            type: "GET",
+            url: "usuarios/Cerrarsesion",
+            dataType: "JSON",
+            success: function (response) {
+                if(response['status']){
+                  location.reload();
+                }
+                else{
+                    swal.fire(response['msj']);
+                }
+            }
+        })
+      }
+      else{
+
+      }
+    });
+  }
 </script>

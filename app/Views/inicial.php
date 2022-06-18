@@ -333,12 +333,12 @@
             type: "POST",
             url: "LotesController/createLote",
             data: {
-                namelote:nameLote,
-                cerdostotales:cerdostotales,
-                cerdosEnfermos:cerdosEnfermos,
-                cerdorMuertos:cerdorMuertos,
-                cerdosSanos:cerdosSanos,
-                rasaCerdos:rasaCerdos
+                namelote:nameLote.trim(),
+                cerdostotales:cerdostotales.trim(),
+                cerdosEnfermos:cerdosEnfermos.trim(),
+                cerdorMuertos:cerdorMuertos.trim(),
+                cerdosSanos:cerdosSanos.trim(),
+                rasaCerdos:rasaCerdos.trim()
             },
             dataType: "JSON",
             success: function (response) {
@@ -348,8 +348,8 @@
                         response['msj'],
                         'success'
                     );
-                    obtenerEstadicaslote(nameLote);
-                    loadDataCerdosLotes(nameLote);
+                    obtenerEstadicaslote(nameLote.trim());
+                    loadDataCerdosLotes(nameLote.trim());
                 }
                 else{
                     Swal.fire(
@@ -365,8 +365,8 @@
     $('#btnConsulta').on('click',function(){
         let dataConsultar=$('#ConsultLote').val();
         if(dataConsultar != ''){
-            obtenerEstadicaslote(dataConsultar);
-            loadDataCerdosLotes(dataConsultar);
+            obtenerEstadicaslote(dataConsultar.trim());
+            loadDataCerdosLotes(dataConsultar.trim());
         }
     });
     var url="<?= base_url();?>"
@@ -477,6 +477,47 @@
                 }
                 else{
                     swal.fire(response['msj']);
+                }
+            }
+        })
+    }
+
+    function aliminarDataCerdo(idDatacerdo){
+       
+        Swal.fire({
+            title: 'Desea eliminar este elemento del lote',
+            showDenyButton: true,
+            confirmButtonText: 'NO',
+            denyButtonText: `SI`,
+        }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (!result.isConfirmed) {
+                if(idDatacerdo != ''){
+                    $.ajax({
+                        type: "POST",
+                        url: "LotesController/EliminarCerdo",
+                        data:{
+                            idCerdo:idDatacerdo,
+                        },
+                        dataType: "JSON",
+                        success: function (response) {
+                            if(response['status']){
+                                obtenerEstadicaslote(response['data']);
+                                loadDataCerdosLotes(response['data']);
+                                Swal.fire(
+                                    'Eliminacion exitosa',
+                                    response['msj'],
+                                    'success'
+                                )
+                            }
+                            else{
+                                swal.fire(response['msj']);
+                            }
+                        }
+                    });
+                }
+                else{
+                    Swal.fire('no Cuenta con toda la informacion para la eliminacion');
                 }
             }
         })

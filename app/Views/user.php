@@ -314,6 +314,11 @@
                 dataType: "JSON",
                 success: function (response) {
                   if(response['status']){
+                    Swal.fire(
+                        'Exito',
+                        response['msj'],
+                        'success'
+                    )
                     id_user=idUser;
                     $('#Usuario').val(response['data']['usuario']);
                     $('#Password').val('');
@@ -324,7 +329,6 @@
                     $('#Correo').val(response['data']['correo']);
                     $('#tipoRegistro').text('actualizar');
                     load_user=true;
-                    Swal.close()
                   }
                   else{
                     Swal.fire(
@@ -334,6 +338,41 @@
                     )
                     Swal.close()
                   }
+                }
+            });
+        }
+        else{
+            Swal.fire('no cuenta con la informacion necesaria para editar el usuario');
+        }
+    }
+    function eliminarUser(idUser){
+        if(idUser != ''){
+            Swal.fire({
+                title: 'Desea eliminar el usuario?',
+                showDenyButton: true,
+                confirmButtonText: 'NO',
+                denyButtonText: `SI`,
+            }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (!result.isConfirmed) {
+                    $.ajax({
+                        type: "POST",
+                        url: "usuarios/EliminarUsuario",
+                        data:{id_usuario:idUser},
+                        dataType: "JSON",
+                        success: function (response) {
+                            if(response['status']){
+                                cargar_data();
+                                swal.fire(response['msj']);
+                            }
+                            else{
+                                swal.fire(response['msj']);
+                            }
+                        }
+                    })
+                }
+                else{
+
                 }
             });
         }

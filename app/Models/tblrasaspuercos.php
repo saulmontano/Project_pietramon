@@ -77,4 +77,24 @@ class tblrasaspuercos extends Model
         return $response;
     }
 
+    public function EliminarDataCerdo($idCerdo = null){
+        $response=[];
+        if($idCerdo){
+            $id_lote=$this->db->table('tblcerdo')->where('idCerdo',$idCerdo)->get()->getResultArray()[0];
+
+            $statusDelete=$this->db->table('tblcerdo')->where('idCerdo',$idCerdo)->delete();
+            if($statusDelete){
+                $namelote=$this->db->table('tbllotes')->select('numero_lote')->where('id_lote',$id_lote)->get()->getResultArray()[0];
+                $response=['status'=>true,'msj'=>'Elemento eliminado con exito','data'=>$namelote['numero_lote'],'error'=>null];
+            }
+            else{
+                $response=['status'=>false,'msj'=>'Fallo la eliminacion del elemento','data'=>null,'error'=>$statusDelete];
+            }
+        }
+        else{
+            $response=['status'=>false,'msj'=>'todos los campos son obligatorios','data'=>null,'error'=>204];
+        }
+        return $response;
+    }
+
 }

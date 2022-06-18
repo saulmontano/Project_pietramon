@@ -40,8 +40,12 @@ class Usuarios extends BaseController
             echo view('layout/footer');
         }
         else{
-            header("Location: Home/index");
+            header("Location: login");
         }
+    }
+    public function Cerrarsesion(){
+        $this->session->destroy();
+        echo json_encode(['status'=>true,'msj'=>'cession cerrada','data'=>null]);
     }
     public function dataTablaUsuarios(){
             $this->modelUser = new  TblUsuarios();
@@ -59,10 +63,12 @@ class Usuarios extends BaseController
                         'telefono'=>$data->telefono,
                         'correo'=>$data->correo,
                         'opciones'=>"<div class='grid sm:grid-cols-2 gap-3'>
-                        <button class='flex items-center justify-center gap-2 h-9 shadow-sm py-1.5 px-3 rounded-md bg-green-100 border border-transparent hover:border-green-500' id='$data->idUser' onclick='editarUser($data->idUser)'>
-                          <span class='text-green-500'>editar</span>
+                        <button class='btn btn-outline-success' id='$data->idUser' onclick='editarUser($data->idUser)'>
                           <i class='fa-solid fa-pen-to-square'></i>
                         </button>
+                        <button class=' btn btn-outline-danger' id='$data->idUser' onclick='eliminarUser($data->idUser)'>
+                        <i class='fa-solid fa-x'></i>
+                      </button>
                       </div>",
                     ];
                     $i++;
@@ -131,6 +137,28 @@ class Usuarios extends BaseController
         $statusUser = $this->modelUser->RegistroUsuario($dataInsert);
         return json_encode($statusUser);
 
+    }
+    public function validar_session(){
+        if($this->session->issetGran){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public function EliminarUsuario(){
+        if(!$this->validar_session()){
+            header("Location: login");
+        }
+        $id_usuario=$this->request->getPost('id_usuario');
+        if($id_usuario!=null){
+            $this->modelUser = new  TblUsuarios();
+            $statusDeleteUsuario= $this->modelUser->deleteUser($id_usuario);
+            return json_encode($statusDeleteUsuario);
+        }
+        else{
+            return json_encode(['status'=>false,'msj'=>'no cuenta con toda la informacion para generar la consulta','error'=>204,'data'=>null]);
+        }
     }
     public function update(){
         $this->modelUser = new  TblUsuarios();
