@@ -129,9 +129,7 @@ class LotesController extends BaseController
                 $cerdosSanos=intVal($cerdosSanos)+intVal($cerdosFaltantes);
                 $cerdosCreate=intVal( $cerdosCreate)+intVal($cerdosFaltantes);
             }
-           
             $obtenerIdraza=$this->modelrasa->obtenerid($rasaCerdos);
-
             if(intVal($cerdostotales)==intVal($cerdosCreate)){
                 $cerdosCreados=0;
                 for ($j=0; $j < intval($cerdosEnfermos); $j++) { 
